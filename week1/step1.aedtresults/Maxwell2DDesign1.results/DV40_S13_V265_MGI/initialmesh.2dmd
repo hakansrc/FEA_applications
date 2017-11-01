@@ -1,6 +1,6 @@
 '<header>'
    file_format_version 'ansoft_cmu_abstract_model_version 1.0.0'
-   mesh_file_checksum 'npts=140; nedges= 297; nelem= 158; nfacets= 4   144     2    10     2'
+   mesh_file_checksum 'npts=140; nedges= 297; nelem= 158; nfacets= 4   140    14     2     2'
 '</header>'
 '<model>'
    modelname 'no name yet'
@@ -19,36 +19,28 @@
          face_id 32
          ncofacets 1
          '<cofacet>'
-            facet_id 5
+            facet_id 4
             order 0
          '</cofacet>'
       '</face>'
       '<edge>'
          edge_id 7
-         nseg 1
+         nseg 3
          '<segment>'
             fromid 1
             toid 2
          '</segment>'
-      '</edge>'
-      '<edge>'
-         edge_id 8
-         nseg 1
          '<segment>'
             fromid 2
             toid 3
          '</segment>'
-      '</edge>'
-      '<edge>'
-         edge_id 9
-         nseg 1
          '<segment>'
             fromid 3
             toid 4
          '</segment>'
       '</edge>'
       '<edge>'
-         edge_id 10
+         edge_id 8
          nseg 1
          '<segment>'
             fromid 4
@@ -56,7 +48,7 @@
          '</segment>'
       '</edge>'
       '<edge>'
-         edge_id 11
+         edge_id 9
          nseg 1
          '<segment>'
             fromid 5
@@ -64,7 +56,7 @@
          '</segment>'
       '</edge>'
       '<edge>'
-         edge_id 12
+         edge_id 10
          nseg 1
          '<segment>'
             fromid 6
@@ -72,7 +64,7 @@
          '</segment>'
       '</edge>'
       '<edge>'
-         edge_id 13
+         edge_id 11
          nseg 1
          '<segment>'
             fromid 7
@@ -80,7 +72,7 @@
          '</segment>'
       '</edge>'
       '<edge>'
-         edge_id 14
+         edge_id 12
          nseg 1
          '<segment>'
             fromid 8
@@ -88,34 +80,58 @@
          '</segment>'
       '</edge>'
       '<edge>'
-         edge_id 15
-         nseg 1
+         edge_id 13
+         nseg 3
          '<segment>'
             fromid 9
             toid 10
          '</segment>'
-      '</edge>'
-      '<edge>'
-         edge_id 16
-         nseg 1
          '<segment>'
             fromid 10
             toid 11
          '</segment>'
-      '</edge>'
-      '<edge>'
-         edge_id 17
-         nseg 1
          '<segment>'
             fromid 11
             toid 12
          '</segment>'
       '</edge>'
       '<edge>'
-         edge_id 18
+         edge_id 14
          nseg 1
          '<segment>'
             fromid 12
+            toid 13
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 15
+         nseg 1
+         '<segment>'
+            fromid 13
+            toid 14
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 16
+         nseg 1
+         '<segment>'
+            fromid 14
+            toid 15
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 17
+         nseg 1
+         '<segment>'
+            fromid 15
+            toid 16
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 18
+         nseg 1
+         '<segment>'
+            fromid 16
             toid 1
          '</segment>'
       '</edge>'
@@ -133,7 +149,7 @@
          face_id 60
          ncofacets 1
          '<cofacet>'
-            facet_id 4
+            facet_id 6
             order 0
          '</cofacet>'
       '</face>'
@@ -141,7 +157,7 @@
          face_id 56
          ncofacets 1
          '<cofacet>'
-            facet_id 6
+            facet_id 5
             order 0
          '</cofacet>'
       '</face>'
@@ -149,36 +165,12 @@
          edge_id 61
          nseg 1
          '<segment>'
-            fromid 13
-            toid 14
+            fromid 11
+            toid 17
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 62
-         nseg 1
-         '<segment>'
-            fromid 14
-            toid 15
-         '</segment>'
-      '</edge>'
-      '<edge>'
-         edge_id 63
-         nseg 1
-         '<segment>'
-            fromid 15
-            toid 16
-         '</segment>'
-      '</edge>'
-      '<edge>'
-         edge_id 64
-         nseg 1
-         '<segment>'
-            fromid 16
-            toid 13
-         '</segment>'
-      '</edge>'
-      '<edge>'
-         edge_id 47
          nseg 1
          '<segment>'
             fromid 17
@@ -186,18 +178,42 @@
          '</segment>'
       '</edge>'
       '<edge>'
-         edge_id 48
+         edge_id 63
          nseg 1
          '<segment>'
             fromid 18
-            toid 19
+            toid 10
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 64
+         nseg 1
+         '<segment>'
+            fromid 10
+            toid 11
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 47
+         nseg 1
+         '<segment>'
+            fromid 19
+            toid 2
+         '</segment>'
+      '</edge>'
+      '<edge>'
+         edge_id 48
+         nseg 1
+         '<segment>'
+            fromid 2
+            toid 3
          '</segment>'
       '</edge>'
       '<edge>'
          edge_id 49
          nseg 1
          '<segment>'
-            fromid 19
+            fromid 3
             toid 20
          '</segment>'
       '</edge>'
@@ -206,7 +222,7 @@
          nseg 1
          '<segment>'
             fromid 20
-            toid 17
+            toid 19
          '</segment>'
       '</edge>'
       '<vertices>'
@@ -733,15 +749,15 @@
       '</entry>'
       '<entry>'
          facet_id 4
-         face_id 60
-      '</entry>'
-      '<entry>'
-         facet_id 5
          face_id 32
       '</entry>'
       '<entry>'
-         facet_id 6
+         facet_id 5
          face_id 56
+      '</entry>'
+      '<entry>'
+         facet_id 6
+         face_id 60
       '</entry>'
    '</facet_face_map>'
 '</model>'
