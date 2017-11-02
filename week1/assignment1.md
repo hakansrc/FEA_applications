@@ -34,6 +34,9 @@ B = 275.34 mT in core
 
 for the results above the core is steel given in the assignment
 
+both changed linearly since because no saturation occured in the core.
+in the case of a saturation, the change of B with current would decrease inside the core.
+
 
 
 
