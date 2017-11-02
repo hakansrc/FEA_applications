@@ -1,4 +1,4 @@
-### Air gap flux density
+### Flux distributions
 
 Air Gap Reluctance = 0.01/(4*pi*10^-7*0.01*1) = 796000 ampere/weber
 
@@ -12,6 +12,8 @@ I tried the create two materials with the given B-H curve however since the B fi
 for iron & steel in the given figure for I=120 and Nt= 100
 ![](https://lh3.googleusercontent.com/ZiRANvhzIDbBNyPOpFJmUBHKYnfE09wAMLp96O_wbwTmHpqVTHkrGnK66vPODKdW15pXzIrho7K-BoS8vwHBlGONDOy0uSipSKIgxl18MwMZmJzxCXlPtJclhoJ0O6KwXv-dHZxZW6lJdisCKKHYNXMQ4q4usQmNPiLXTV9sK3rRMqBmCXYy_PIqhcZaFRot1lIQKOeUE2YGUb-0hTNA2W7_K45Gc8P4NCXEt30IDd8x3LurOgyDtn34FNnaXWfqYENorj-yqruPWkUxj6QSEDVTs6Cy49yp8rvfn-mEH49l4Ki-nX3IkXY1Q7AQd3BA3Kz2aFy_WXtXsS-HT3hum_yhmq_m55j0QhQ8n_DhKOsLejOSbNVMmmd7lTsqTD4C8QOmdcmji_31UlPuUS4jIdnB8E7-O25ydXgqkzR36Mbjcksb3PYVtseQOCWkwhEXBMee5xX9eo8LJfGXdNGRRAgVEanlLK87K2jOEGegAvZAoQ_ZhmHE-hvKVj8UcqW8pI9cZAB2rLKW5PqLLszgjboK4e8uvUyUHNnvwq743fJEH0urykH_GnuI84D01dbPl1Pt8WsxFRaSEqRNaDaFKrXWtlBcca54lohTcRmIxw=w958-h410-no)
 Due to the leakage, left handside of the core has more B than the right handside
+
+### Leakage and main flux&inductance comparisons
 
 leakage flux is around 3.77mT for I = 120 and material is steel
 total flux is around 27.39 mT
