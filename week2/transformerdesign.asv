@@ -49,8 +49,6 @@ copper_area_pri_percoil = Ipri/current_density; %mm2
 copper_area_pri_total = N1*copper_area_pri_percoil; %mm2
 copper_radius_pri_coil = sqrt(copper_area_pri_percoil/pi); %mm
 
-total_copper_area = (copper_area_pri_total + copper_area_sec_total)*10^-6; %m2
-fill_factor = total_copper_area/inner_space_area;
 
 
 
