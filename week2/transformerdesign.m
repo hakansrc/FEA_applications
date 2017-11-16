@@ -13,7 +13,7 @@ N2 = 4;
 Ipri = 29; %A
 Isec = 2500; %A
 u0 = 4*pi*10^-7;
-ur = 5000;
+ur = 1000;
 u = u0*ur;
 
 
@@ -69,5 +69,39 @@ core_surface_area = outer_space_area - inner_space_area ; %m2
 core_volume = core_surface_area * depth; %m3
 core_density = 7750 ;%kg/m3
 core_mass = core_volume*core_density/1000; %tons
-%%%core_cost = 
+core_material_cost = 3 ;% $/kg
+core_total_cost = core_mass*1000*core_material_cost; 
+core_losses = 2.5*core_mass*1000; % watts
+
+
+
+copper_volume = N1*(width*4)*(copper_area_pri_percoil*10^-6) + N2*(width*4)*(copper_area_sec_percoil*10^-6); %m3
+copper_length_pri = 4*width*N1;
+copper_length_sec = 4*width*N2;
+copper_density = 8960 ;% kg/m3
+copper_mass = copper_volume*copper_density; %kg
+copper_material_cost = 10 ; %$/kg
+copper_total_cost = copper_mass*copper_material_cost;
+
+copper_resistivity = 1.7*10^-8;
+copper_resistivity_pri = copper_length_pri*copper_resistivity/(copper_area_pri_percoil*10^-6);
+copper_resistivity_sec = copper_length_sec*copper_resistivity/(copper_area_sec_percoil*10^-6);
+
+Lm = N1^2/reluctance;
+
+copper_losses = Ipri^2*copper_resistivity_pri+Isec^2*copper_resistivity_sec;
+total_losses = core_losses+copper_losses;
+
+Pout = 1000000; %VA
+Pin = Pout+total_losses;
+
+efficiency = Pout/Pin*100; %percent
+
+
+
+
+
+
+
+
 
