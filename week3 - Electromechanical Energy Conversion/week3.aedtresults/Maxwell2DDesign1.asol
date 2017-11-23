@@ -1,20 +1,20 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002017, month=000000000011, day=000000000020, hour=000000000016, min=000000000018, sec=000000000037)
+    time(year=000000002017, month=000000000011, day=000000000023, hour=000000000023, min=000000000048, sec=000000000041)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000000693, lin=000000000017, lvl=000000000000)
+    $index$(pos=000000001633, lin=000000000054, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
 $begin 'SolutionBlock1'
 	ProductName=''
 	CircuitName='Maxwell2DDesign1'
-	VersionID=21
+	VersionID=49
 	PostProcess=false
 	LossLess=true
-	NextUniqueID=23
+	NextUniqueID=80
 	MoveBackwards=false
 	$begin 'LinkedDataList'
 	$end 'LinkedDataList'
@@ -23,12 +23,53 @@ $begin 'SolutionBlock1'
 $end 'SolutionBlock1'
 $begin 'BlockMapName'
 	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=52, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock6'
+	'SolutionKey(SimSetup=52, Instance=\'SolutionDefinition\', Solution=53, VersionID=56)'='SolutionBlock4'
+	'SolutionKey(SimSetup=52, Instance=\'SolutionDefinition\', Solution=54, VersionID=56)'='SolutionBlock5'
 $end 'BlockMapName'
+$begin 'SolutionBlock4'
+	SolutionName='AdaptivePass'
+	SolutionID=53
+	V=56
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+$end 'SolutionBlock4'
+$begin 'SolutionBlock5'
+	SolutionName='LastAdaptive'
+	SolutionID=54
+	V=56
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+$end 'SolutionBlock5'
+$begin 'SolutionBlock6'
+	SimSetupID=52
+	SimSetupName='Setup1'
+	VersionID=0
+	SolveSetupID=0
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock6'
 $begin '$index$'
 	$begin '$index$'
-		BlockMapName(pos=622, lin=14, lvl=0)
+		SolutionBlock4(pos=1004, lin=20, lvl=0)
+		SolutionBlock5(pos=1250, lin=33, lvl=0)
+		SolutionBlock6(pos=1496, lin=46, lvl=0)
 		SolutionBlock1(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=622, lin=14, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=693, lin=17, lvl=0)
+		$index$(pos=1633, lin=54, lvl=0)
 	$end '$index$'
 $end '$index$'
+                                                                                                                                                                                                                                                                                                                                                                        
