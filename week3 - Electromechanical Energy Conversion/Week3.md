@@ -1,6 +1,4 @@
 
-scratch
-
 NI = ΦR  
 Assuming infinite permeability  B = 0.5 T
 ΦR = B * A * Lgap/(µ0 * A) = B * Lgap/µ0 ≈ 8000 = NI (chosen as 8500 )
@@ -12,6 +10,7 @@ then L = N * flux / i = N * B * A / i
 ### For the 1st position
 Assuming ideal case
 Reluctance is mainly due to the air gap i.e.
+
 Reluctance = Lgap/(µ0 * A) = 0.02/(4 * pi * 10e-7 * 0.02 * 1)  = 79577 1/H
 
 W = 0.5 * (NI)^2 /Reluctance = 454 joules (250 joules from the simulation)
