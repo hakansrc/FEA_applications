@@ -107,8 +107,8 @@ L = 200 * 0.024 / 40 = 0.12 H
 Reluctance is mainly due to the air gap i.e.
 Reluctance = Lgap/(µ0 * A) = 0.02/(4 * pi * 10e-7 * 0.02 * 1)  = 79577 1/H
 
-W = 0.5 * (NI)^2 /Reluctance = 454 joules (301 joules from the simulation)
-From the simulation Magnitude of the Force applied is around 1912 N 
+W = 0.5 * (NI)^2 /Reluctance = 454 joules (268 joules from the simulation)
+From the simulation Magnitude of the Force applied is around 1580 N 
 flux_gap = A * B = 0.02 * 1 * 0.5= 0.01 Weber
 L = 200 * 0.0125 / 40 = 0.05 H
 
