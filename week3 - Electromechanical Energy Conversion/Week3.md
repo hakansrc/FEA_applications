@@ -187,11 +187,11 @@ L = 200 * 0.0125 / 40 = 0.05 H
 
 
 
-![](./simulation/force.png)
+![](./simulation/force.PNG)
 
-![](./simulation/energy.png)
+![](./simulation/energy.PNG)
 
-![](./simulation/inductance.png)
+![](./simulation/inductance.PNG)
 
 
 
